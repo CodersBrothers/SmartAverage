@@ -20,6 +20,16 @@ console.log('Average with variance: ' + info.average);
 console.log('Dataset of average without most far values: ' + info.dataset.join(','));
 ```
 
+Returns:
+```
+Initial dataset: 10,12.1,9.8,5,11,10,7.3
+Average with variance: 10.580000000000002
+Dataset of average without most far values: 10,12.1,9.8,11,10
+```
+
+## Used in
+- Bitcoin average: [BTC Average](https://github.com/CodersBrothers/BtcAverage)
+
 #### License
 
 The MIT License (MIT)
