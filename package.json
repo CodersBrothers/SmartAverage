@@ -1,5 +1,5 @@
 {
-  "name": "SmartAverage",
+  "name": "smartaverage",
   "description": "Intelligent average of data set of numbers calculating variance and discarding the farthest values.",
   "version": "0.0.1",
   "author": "CodersBrothers",
