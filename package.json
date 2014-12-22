@@ -1,0 +1,28 @@
+{
+  "name": "SmartAverage",
+  "description": "Intelligent average of data set of numbers calculating variance and discarding the farthest values.",
+  "version": "0.0.1",
+  "author": "CodersBrothers",
+  "homepage": "https://github.com/CodersBrothers/smartaverage",
+  "bugs": {
+    "url": "https://github.com/CodersBrothers/smartaverage/issues"
+  },
+  "keywords": [
+    "average",
+    "standard deviation",
+    "variance",
+    "math",
+    "numbers"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/CodersBrothers/smartaverage.git"
+  },
+  "dependencies": {},
+  "main": "smartaverage",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "license": "MIT"
+}
