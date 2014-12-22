@@ -68,9 +68,7 @@ function getAverageWithVariance(acceptableVariance, minimumValues, dataset){
     while(!lastVariance || lastVariance > acceptableVariance){
         lastVarianceDetails = getVariance(datasetClone);
         lastVariance = lastVarianceDetails.variance;
-        //console.log('Variance of ' + values.length + ' elements: ' + lastVariance);
         if(lastVariance > acceptableVariance){
-            //console.log('Removing price from array ' + lastVarianceDetails.maxDistanceKey);
             datasetClone = remove(datasetClone, lastVarianceDetails.maxDistanceKey);
         }
         if(datasetClone.length < minimumValues){
