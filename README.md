@@ -1,5 +1,5 @@
 # Smart Average
-Intelligent average of data set of numbers calculating variance and discarding the farthest values.
+Intelligent average of data set numbers calculating variance and discarding the farthest values.
 Learn about [this](http://www.mathsisfun.com/data/standard-deviation.html) (in [spanish](http://www.disfrutalasmatematicas.com/datos/desviacion-estandar.html))
 
 ## Install
