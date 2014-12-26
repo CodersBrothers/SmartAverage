@@ -1,5 +1,5 @@
 var smartaverage = require('./smartaverage');
-var dataset = [10, 12.1, 9.8, 5, 11, 10, 7.3];
+var dataset = [5, 7.1, 9, 5, 4.3, 3.5, 8, 5.3];
 var acceptableVariance = 1;
 var minimumValues = 5;
 var info = smartaverage(acceptableVariance, minimumValues, dataset);

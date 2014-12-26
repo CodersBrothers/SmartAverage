@@ -65,11 +65,17 @@ function getAverageWithVariance(acceptableVariance, minimumValues, dataset){
     var datasetClone = dataset.slice(0);
     var lastVarianceDetails;
     var lastVariance;
-    while(!lastVariance || lastVariance > acceptableVariance){
+    var end = false;
+    while(!end){
         lastVarianceDetails = getVariance(datasetClone);
         lastVariance = lastVarianceDetails.variance;
-        if(lastVariance > acceptableVariance){
+        if(!lastVariance){
+            end = true;
+        }
+        if(lastVariance >= acceptableVariance){
             datasetClone = remove(datasetClone, lastVarianceDetails.maxDistanceKey);
+        }else{
+            end = true;
         }
         if(datasetClone.length < minimumValues){
             throw new Error('Not there are enough values with acceptable variance');
