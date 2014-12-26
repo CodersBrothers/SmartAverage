@@ -1,7 +1,7 @@
 {
   "name": "smartaverage",
   "description": "Intelligent average of data set of numbers calculating variance and discarding the farthest values.",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "author": "CodersBrothers",
   "homepage": "https://github.com/CodersBrothers/smartaverage",
   "bugs": {
