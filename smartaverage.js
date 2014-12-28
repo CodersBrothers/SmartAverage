@@ -10,7 +10,7 @@ function average(values){
 }
 
 /**
- * DEVIATION
+ * SQUARE
  *
  * @param {Number} number
  */
